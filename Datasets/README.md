@@ -1,0 +1,1 @@
+kaggle.com'dan edinilmiş bazı Türkçe veri setleri
