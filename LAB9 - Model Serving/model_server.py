@@ -34,7 +34,7 @@ def home():
 
 
 @app.route("/classify-texts", methods=["POST"])
-def yep():
+def classify():
     data = request.get_json()
     comments = data["texts"]
     comments_clean = [clean_text(c) for c in comments]
